@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "fibers": "^4.0.3",
+    "firebase": "^8.0.0",
+    "loaders.css": "^0.1.2",
+    "material-design-icons-iconfont": "^6.1.0",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "deepmerge": "^4.2.2",
+    "sass": "^1.28.0",
+    "sass-loader": "^8.0.2"
+  }
+}
